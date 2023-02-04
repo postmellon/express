@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "packages/express-middle",
+			"name": "middle"
+		},
+		{
+			"path": ".",
+			"name": "main"
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "main/.yarn/sdks/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true
+	}
+}
