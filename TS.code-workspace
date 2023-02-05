@@ -10,7 +10,19 @@
 		}
 	],
 	"settings": {
-		"typescript.tsdk": "main/.yarn/sdks/typescript/lib",
-		"typescript.enablePromptUseWorkspaceTsdk": true
+		"search.exclude": {
+		  "**/.yarn": true,
+		  "**/.pnp.*": true,
+		  "**/dist": true,
+		  "**/node_modules": true,
+		  "tsconfig.tsbuildinfo": true
+		},
+	  "extensions": {
+		"recommendations": [
+		  "arcanis.vscode-zipfs",
+		  "dbaeumer.vscode-eslint",
+		  "esbenp.prettier-vscode"
+		]
+	  },
 	}
 }
