@@ -5,7 +5,7 @@
 			"name": "middle"
 		},
 		{
-			"path": ".",
+			"path" : ".",
 			"name": "main"
 		}
 	],
@@ -17,12 +17,19 @@
 		  "**/node_modules": true,
 		  "tsconfig.tsbuildinfo": true
 		},
-	  "extensions": {
+		// work-space를 기준으로 작성되어야 하는건 절대경로!
+		"typescript.tsdk": "../../.yarn/sdks/typescript/lib",
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"prettier.prettierPath": "../../.yarn/sdks/prettier/index.js",
+		"prettier.configPath": "../../.prettierrc.json",
+		"eslint.nodePath": "../../.yarn/sdks",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+	},
+	"extensions": {
 		"recommendations": [
 		  "arcanis.vscode-zipfs",
 		  "dbaeumer.vscode-eslint",
 		  "esbenp.prettier-vscode"
 		]
 	  },
-	}
 }
