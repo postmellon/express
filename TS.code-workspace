@@ -5,6 +5,10 @@
 			"name": "middle"
 		},
 		{
+			"path": "packages/nest-orm",
+			"name": "nest"
+		},
+		{
 			"path": ".",
 			"name": "main"
 		}
