@@ -5,7 +5,7 @@
 			"name": "middle"
 		},
 		{
-			"path" : ".",
+			"path": ".",
 			"name": "main"
 		}
 	],
@@ -25,7 +25,7 @@
 		"eslint.nodePath": "../../.yarn/sdks",
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
-	"extensions": {
+	  "extensions": {
 		"recommendations": [
 		  "arcanis.vscode-zipfs",
 		  "dbaeumer.vscode-eslint",
