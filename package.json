@@ -3,7 +3,7 @@
   "packageManager": "yarn@3.4.1",
   "private": true,
   "scripts": {
-    "middle dev": "yarn workspace middle"
+    "middle_dev": "yarn workspace middle nodemon --exec \"ts-node\" app/App.ts"
   },
   "workspaces": [
     "packages/*"
