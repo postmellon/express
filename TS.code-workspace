@@ -11,6 +11,10 @@
 		{
 			"path": ".",
 			"name": "main"
+		},
+		{
+			"path": "packages/SSR",
+			"name": "SSR"
 		}
 	],
 	"settings": {
