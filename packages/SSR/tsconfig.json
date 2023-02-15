@@ -1,4 +1,8 @@
 {
     "extends": "../../tsconfig.json",
-    "isolatedModules": true
+    "include": ["src/**/*.vue", "src/**/*.ts"],
+    "compilerOptions": {
+        "isolatedModules": true
+    }
+    
 }
